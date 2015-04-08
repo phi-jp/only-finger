@@ -1,0 +1,32 @@
+{
+  "name": "only-finger",
+  "version": "1.0.0",
+  "description": "only-finger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phi-jp/only-finger.git"
+  },
+  "author": "phi-jp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phi-jp/only-finger/issues"
+  },
+  "homepage": "https://github.com/phi-jp/only-finger",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.3",
+    "gulp-helper": "^1.0.3",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.2",
+    "gulp-webserver": "^0.9.0"
+  },
+  "scripts": [
+    "./scripts/constant.js",
+    "./scripts/main.js",
+    "./scripts/scenes/game.js"
+  ]
+}
